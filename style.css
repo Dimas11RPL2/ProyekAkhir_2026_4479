@@ -14,19 +14,11 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
-  font-family: Arial, sans-serif;
-  color: #0fa3bd;
-  background-color: #09435a;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .kepala-halaman {

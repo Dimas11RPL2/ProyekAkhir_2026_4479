@@ -14,28 +14,49 @@
 /* TODO CSS-01: Atur jenis font, warna teks, warna latar belakang,
    margin, dan padding dasar halaman. */
 body {
+font-family: Arial, sans-serif;
+  color: #13c6cf;
+  background-color: #097575;
+  margin: 0;
+  padding: 20px;
 }
 
 /* TODO CSS-02: Atur lebar konten, posisi, padding, margin,
    border dan border-radius seperlunya. */
 .container {
+max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .kepala-halaman {
+text-align: center;
+  margin-bottom: 25px;
 }
 
 .panel {
+background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
 }
 
 /* TODO CSS-03: Atur ukuran input, padding, jarak antar elemen,
    warna tombol, dan tampilan yang konsisten. */
 .form-baris {
+ display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
 }
 
 .form-baris label {
+ font-weight: bold;
 }
 
 .form-baris input {
+
 }
 
 .aksi {
